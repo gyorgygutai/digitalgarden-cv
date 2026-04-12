@@ -24,8 +24,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Generate PDF
-        run: node scripts/generate_pdf.js
+      # - name: Generate PDF
+      #   run: node scripts/generate_pdf.js
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1

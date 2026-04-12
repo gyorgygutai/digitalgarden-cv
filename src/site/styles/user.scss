@@ -1,0 +1,61 @@
+/* CV — src/site/styles/user/cv.scss */
+
+:root {
+  --dg-content-max-width: 540px;
+  --cv-c1: #111;
+  --cv-c2: #555;
+  --cv-c3: #999;
+  --cv-border: #e5e5e5;
+  --cv-tag-bg: #f2f2f2;
+  --cv-size: 14px;
+  --cv-size-sm: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cv-c1: #eee;
+    --cv-c2: #bbb;
+    --cv-c3: #888;
+    --cv-border: #333;
+    --cv-tag-bg: #383838;
+  }
+}
+
+.markdown-preview-view {
+  font-size: var(--cv-size);
+  color: var(--cv-c1);
+  -webkit-font-smoothing: antialiased;
+}
+
+.markdown-preview-view img[alt="György Gutai"] {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.markdown-preview-view h1 { font-size: 20px; font-weight: 400; }
+.markdown-preview-view h2 { font-size: var(--cv-size); font-weight: 600; margin: 48px 0 16px; }
+.markdown-preview-view h3 { font-size: var(--cv-size); font-weight: 600; margin: 32px 0 4px; }
+
+.markdown-preview-view p,
+.markdown-preview-view ul { color: var(--cv-c2); }
+
+.markdown-preview-view code {
+  font-family: inherit;
+  font-size: var(--cv-size-sm);
+  background: var(--cv-tag-bg);
+  color: var(--cv-c2);
+  border-radius: 4px;
+  padding: 1px 6px;
+  border: none;
+}
+
+.markdown-preview-view .date {
+  color: var(--cv-c3);
+  font-size: var(--cv-size-sm);
+  margin-left: 8px;
+  font-variant-numeric: tabular-nums;
+}
