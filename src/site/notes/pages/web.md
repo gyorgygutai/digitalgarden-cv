@@ -9,7 +9,7 @@
 
 
 
-![[cv_photo_2026.png\|cv_photo_2026.png]]
+![assets/cv_photo_2026_1.png](/img/user/assets/cv_photo_2026_1.png)
 
 # György Gutai
 
@@ -195,48 +195,6 @@ GitLab, GitHub, GitHub Actions, GitHub Copilot, Claude, CI/CD, Figma
 **2013** · Backend Developer · [ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
 
 **2012 — 2013** · Backend Developer · Green Tech Innováció Zrt. · Remote
-
-
-</div></div>
-
-
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/sections/education/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
-## Education
-
-**2002 — 2006** · Katona József High School, Budapest · High school diploma
-
-
-</div></div>
-
-
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/sections/personal/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-
-
-## Personal Details
-
-**Birthdate** · October 7, 1988
-**Location** · Budapest, Hungary
-
----
-
-## Contact & Links
-
-**Email** · [hi@gyorgygutai.dev](mailto:hi@gyorgygutai.dev)
-**Phone** · [+36 70 331 36 43](tel:+36703313643)
-**PDF** · [cv_gyorgy_gutai.pdf](https://gyorgygutai.dev/cv_gyorgy_gutai.pdf)
-**LinkedIn** · [gyorgygutai](https://linkedin.com/in/gyorgygutai)
-**GitHub** · [gyorgygutai](https://github.com/gyorgygutai)
-**GitHub Gist** · [gyorgygutai](https://gist.github.com/gyorgygutai)
 
 
 </div></div>

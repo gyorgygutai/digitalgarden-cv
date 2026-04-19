@@ -3,7 +3,7 @@
 ---
 
 
-![[cv_photo_2026.png\|cv_photo_2026.png]]
+![assets/cv_photo_2026_1.png](/img/user/assets/cv_photo_2026_1.png)
 
 # György Gutai
 
