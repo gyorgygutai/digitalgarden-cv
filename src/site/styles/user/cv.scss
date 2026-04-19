@@ -1,59 +1,127 @@
 :root {
-  --dg-content-max-width: 540px;
-  --cv-c1: #111;
-  --cv-c2: #555;
-  --cv-c3: #999;
-  --cv-border: #e5e5e5;
-  --cv-tag-bg: #f2f2f2;
-  --cv-size: 14px;
-  --cv-size-sm: 12px;
+  --background-primary: #ffffff;
+  --background-primary-alt: #f9f9f9;
+  --background-secondary: #f3f3f3;
+  --background-secondary-alt: #ebebeb;
+  --background-modifier-border: #e5e5e5;
+  --background-modifier-hover: #f0f0f0;
+
+  --text-normal: #111111;
+  --text-muted: #555555;
+  --text-faint: #999999;
+  --text-on-accent: #ffffff;
+
+  --text-accent: #111111;
+  --text-accent-hover: #555555;
+
+  --link-color: #111111;
+  --link-color-hover: #555555;
+  --link-unresolved-color: #999999;
+  --link-unresolved-opacity: 0.6;
+
+  --interactive-normal: #f3f3f3;
+  --interactive-hover: #e8e8e8;
+  --interactive-accent: #111111;
+  --interactive-accent-hover: #333333;
+
+  --h1-color: #111111;
+  --h2-color: #555555;
+  --h3-color: #111111;
+  --h4-color: #111111;
+  --h5-color: #111111;
+  --h6-color: #111111;
+
+  --h1-size: 2em;
+  --h2-size: 1.1em;
+  --h3-size: 0.72em;
+  --h4-size: 0.9em;
+  --h5-size: 0.85em;
+  --h6-size: 0.85em;
+
+  /* Heading weights */
+  --h1-weight: 700;
+  --h2-weight: 400;
+  --h3-weight: 600;
+  --h4-weight: 600;
+  --h5-weight: 500;
+  --h6-weight: 500;
+
+  --h3-transform: uppercase;
+  --h3-style: normal;
+  --h3-variant: normal;
+
+  --font-text-override:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-interface-override: var(--font-text-override);
+
+  --line-height-normal: 1.65;
+  --line-height-tight: 1.3;
+
+  --inline-title-color: #111111;
+  --inline-title-size: 2em;
+  --inline-title-weight: 700;
+
+  --dg-graph-bg: #f9f9f9;
+  --dg-graph-border-color: #e5e5e5;
+  --dg-graph-node-color: #111111;
+  --dg-graph-node-color-muted: #cccccc;
+  --dg-graph-label-color: #555555;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cv-c1: #eee;
-    --cv-c2: #bbb;
-    --cv-c3: #888;
-    --cv-border: #333;
-    --cv-tag-bg: #383838;
-  }
+.theme-dark {
+  --background-primary: #222;
+  --background-primary-alt: #333;
+  --background-secondary: #333;
+  --background-secondary-alt: #444;
+  --background-modifier-border: #333;
+  --background-modifier-hover: #383838;
+
+  --text-normal: #eee;
+  --text-muted: #bbb;
+  --text-faint: #888;
+  --text-on-accent: #fff;
+
+  --text-accent: #fff;
+  --text-accent-hover: #bbb;
+
+  --link-color: #fff;
+  --link-color-hover: #bbb;
+  --link-unresolved-color: #888;
+  --link-unresolved-opacity: 0.6;
+
+  --interactive-normal: #333;
+  --interactive-hover: #444;
+  --interactive-accent: #fff;
+  --interactive-accent-hover: #eee;
+
+  --h1-color: #fff;
+  --h2-color: #bbb;
+  --h3-color: #fff;
+  --h4-color: #fff;
+  --h5-color: #fff;
+  --h6-color: #fff;
+
+  --line-height-normal: 1.65;
+  --line-height-tight: 1.3;
+
+  --inline-title-color: #fff;
+  --inline-title-size: 2em;
+  --inline-title-weight: 700;
 }
 
-.markdown-preview-view {
-  font-size: var(--cv-size);
-  color: var(--cv-c1);
-  -webkit-font-smoothing: antialiased;
-}
+body {
+  --dg-content-max-width: 720px;
+  --dg-content-font-size: 16px;
+  --dg-content-line-height: 1.65;
+  --dg-content-padding-top: 64px;
+  --dg-content-padding-top-mobile: 56px;
 
-.markdown-preview-view img[alt="György Gutai"] {
-  width: 76px;
-  height: 76px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin-bottom: 16px;
-}
+  --dg-filetree-width: 240px;
+  --dg-filetree-min-width: 240px;
 
-.markdown-preview-view h1 { font-size: 20px; font-weight: 400; }
-.markdown-preview-view h2 { font-size: var(--cv-size); font-weight: 600; margin: 48px 0 16px; }
-.markdown-preview-view h3 { font-size: var(--cv-size); font-weight: 600; margin: 32px 0 4px; }
+  --dg-toc-font-size: 0.82rem;
+  --dg-toc-title-size: 0.7rem;
 
-.markdown-preview-view p,
-.markdown-preview-view ul { color: var(--cv-c2); }
-
-.markdown-preview-view code {
-  font-family: inherit;
-  font-size: var(--cv-size-sm);
-  background: var(--cv-tag-bg);
-  color: var(--cv-c2);
-  border-radius: 4px;
-  padding: 1px 6px;
-  border: none;
-}
-
-.markdown-preview-view .date {
-  color: var(--cv-c3);
-  font-size: var(--cv-size-sm);
-  margin-left: 8px;
-  font-variant-numeric: tabular-nums;
+  --dg-timestamps-size: 0.78em;
 }
