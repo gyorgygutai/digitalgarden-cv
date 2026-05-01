@@ -3,8 +3,6 @@
 ---
 
 
-![assets/cv_photo_2026_1.png](/img/user/assets/cv_photo_2026_1.png)
-
 # György Gutai
 
 Full Stack Web Developer in Budapest, Hungary
