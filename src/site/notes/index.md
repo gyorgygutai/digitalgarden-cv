@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/index/","title":"György Gutai","tags":["gardenEntry"],"dg-note-properties":{"title":"György Gutai"}}
 ---
 
 
