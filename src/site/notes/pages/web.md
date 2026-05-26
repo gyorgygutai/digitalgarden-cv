@@ -184,15 +184,19 @@ GitLab, GitHub, GitHub Actions, GitHub Copilot, Claude, CI/CD, Figma
 
 ## Work Experience
 
-**2024 — Now** · Full Stack Web Developer Contractor / Freelancer · Self-employed
+**2024 — Now**  Full Stack Web Developer Contractor / Freelancer · Self-employed
 
-**2017 — 2024** · Lead Frontend Developer · [ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
+**2017 — 2024** Lead Frontend Developer 
+[ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
 
-**2013 — 2017** · Full Stack Developer · [ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
+**2013 — 2017** Full Stack Developer
+[ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
 
-**2013** · Backend Developer · [ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
+**2013** Backend Developer 
+[ORMO Kft. | Tegridy Technologies Zrt.](https://ormo.hu/) · Budapest, Hungary
 
-**2012 — 2013** · Backend Developer · Green Tech Innováció Zrt. · Remote
+**2012 — 2013** · Backend Developer 
+Green Tech Innováció Zrt. - Remote
 
 
 </div></div>
