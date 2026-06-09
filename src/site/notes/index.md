@@ -42,7 +42,7 @@ Full Stack Web Developer in Budapest, Hungary
 
 ## About
 
-Frontend-heavy Full-Stack Developer with 15 years of experience, specialising in React since 2017 — now AI workflow engineering, including generative image and video editing. [View as PDF](cv_gyorgy_gutai.pdf)
+Frontend-heavy Full-Stack Developer with 15 years of experience, specialising in React since 2017 — now AI workflow engineering, including generative image and video editing. [View as PDF](/img/user/cv_gyorgy_gutai.pdf)
 
 
 </div></div>
