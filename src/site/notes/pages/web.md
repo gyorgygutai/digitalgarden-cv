@@ -18,7 +18,7 @@
 
 # György Gutai
 Full Stack Web Developer in Budapest, Hungary
-[hi@gyorgygutai.dev](mailto:hi@gyorgygutai.dev) · [+36 70 331 36 43](tel:+36703313643)
+[hi@gyorgygutai.dev](mailto:hi@gyorgygutai.dev) · [703313643](tel:+36703313643)
 
 </div>
 </div>
