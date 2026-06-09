@@ -3,7 +3,7 @@
 ---
 
 <div style="display:flex; align-items:center; gap:16px;">
-<div style="flex-shrink:0;">
+<div style="flex-shrink:0;" class="avatar-container">
 
 ![avatar|120](https://gyorgygutai.dev/assets/cv_photo_2026_1.png)
 
@@ -16,5 +16,3 @@ hi@gyorgygutai.dev · +36 70 331 36 43
 
 </div>
 </div>
-
-^header
