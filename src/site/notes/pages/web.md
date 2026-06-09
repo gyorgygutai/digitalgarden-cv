@@ -8,8 +8,6 @@
 
 
 
-<style> .profile-header { display: flex; align-items: center; gap: 16px; } </style>
-
 <div style="display:flex; align-items:center; gap:16px;">
 <div style="flex-shrink:0;">
 
@@ -18,20 +16,12 @@
 </div>
 <div>
 
-**György Gutai**
+# György Gutai
 Full Stack Web Developer in Budapest, Hungary
 hi@gyorgygutai.dev · +36 70 331 36 43
-[gyorgygutai.dev](https://gyorgygutai.dev)
 
 </div>
 </div>
-
-# György Gutai
-
-Full Stack Web Developer in Budapest, Hungary
-
-[gyorgygutai.dev](https://gyorgygutai.dev) · [hi@gyorgygutai.dev](mailto:hi@gyorgygutai.dev) · [+36 70 331 36 43](tel:+36703313643)
-
 
 </div></div>
 
