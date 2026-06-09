@@ -1,6 +1,7 @@
 ---
 {"dg-publish":true,"permalink":"/sections/header/","dg-note-properties":{}}
 ---
+{ #header}
 
 <div style="display:flex; align-items:center; gap:16px;">
 <div style="flex-shrink:0;">
