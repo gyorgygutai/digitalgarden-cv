@@ -15,7 +15,7 @@
 
 
 
-<div style="display:flex; align-items:center; gap:16px;">
+<div class="header-container">
 <div style="flex-shrink:0;" class="avatar-container">
 
 ![avatar|60](https://gyorgygutai.dev/assets/cv_photo_2026_1.png)
