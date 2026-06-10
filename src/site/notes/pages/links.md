@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/pages/links/","title":"Notable Links","dg-note-properties":{"title":"Notable Links"}}
+{"dg-publish":true,"dg-permalink":"links","permalink":"/links/","title":"Notable Links","dg-note-properties":{"title":"Notable Links"}}
 ---
-
 
 # 💪🏾 Notable Links
 
