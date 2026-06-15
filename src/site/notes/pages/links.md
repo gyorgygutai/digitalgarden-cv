@@ -2,6 +2,7 @@
 {"dg-publish":true,"dg-permalink":"links","permalink":"/links/","title":"💪🏾 Notable Links","dgShowInlineTitle":true,"dg-note-properties":{"title":"💪🏾 Notable Links"}}
 ---
 
+
 ## [Face Value](https://face-value.gyorgygutai.dev) 
 
 A minimal website that does fun things to your face. NextJS frontend, Flux.2 Klein 9B inference server on Runpod serverless.
