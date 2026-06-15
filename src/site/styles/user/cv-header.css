@@ -1,0 +1,25 @@
+/* .cv-header-row {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.cv-header-row img {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cv-header-row .cv-header-text {
+  flex: 1;
+}
+
+.cv-header-row .cv-header-text * {
+  margin: 0;
+}
+
+.cv-header-row .cv-header-text .cv-header-title {
+  margin: 0 0 var(--p-spacing) 0;
+} */

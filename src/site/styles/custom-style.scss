@@ -50,24 +50,24 @@ body {
     display: none;
   }
 
-  .avatar-container img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 150%;
-  }
+  // .avatar-container img {
+  //   width: 60px;
+  //   height: 60px;
+  //   object-fit: cover;
+  //   border-radius: 150%;
+  // }
 
-  @media (min-width: 600px) {
-    .header-container {
-      gap: 16px;
-      display: flex;
-      align-items: center;
-      flex-direction: row;
-    }
+  // @media (min-width: 600px) {
+  //   .header-container {
+  //     gap: 16px;
+  //     display: flex;
+  //     align-items: center;
+  //     flex-direction: row;
+  //   }
 
-    .avatar-container img {
-      width: 100px;
-      height: 100px;
-    }
-  }
+  //   .avatar-container img {
+  //     width: 100px;
+  //     height: 100px;
+  //   }
+  // }
 }
