@@ -9,7 +9,7 @@
 
 
 <div class="cv-header-row">
-  <img src="assets/cv_photo_2026_1.png" width="60" />
+  <img src="img/user/cv_photo_2026_1.png" width="60" />
   <div class="cv-header-text">
     <h1 class="cv-header-title">György Gutai</h1>
     <p>Full Stack Web Developer in Budapest, Hungary</p>
