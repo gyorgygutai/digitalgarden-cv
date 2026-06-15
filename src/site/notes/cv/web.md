@@ -8,7 +8,6 @@
 
 
 
-
 <div class="cv-header-row">
   <img src="assets/cv_photo_2026_1.png" width="60" />
   <div class="cv-header-text">
