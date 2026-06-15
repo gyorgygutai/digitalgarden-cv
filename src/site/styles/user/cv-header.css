@@ -1,4 +1,4 @@
-/* .cv-header-row {
+.cv-header-row {
   gap: 16px;
   display: flex;
   align-items: center;
@@ -22,4 +22,4 @@
 
 .cv-header-row .cv-header-text .cv-header-title {
   margin: 0 0 var(--p-spacing) 0;
-} */
+}
