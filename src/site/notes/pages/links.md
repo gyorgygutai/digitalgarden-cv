@@ -1,9 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"links","permalink":"/links/","title":"Notable Links","dg-note-properties":{"title":"Notable Links"}}
----
-
-# 💪🏾 Notable Links
-
+{"dg-publish":true,"dg-permalink":"links","permalink":"/links/","title":"💪🏾 Notable Links","dgShowInlineTitle":true,"dg-note-properties":{"title":"💪🏾 Notable Links"}}
 ---
 
 ## [Face Value](https://face-value.gyorgygutai.dev) 
