@@ -1,6 +1,7 @@
 :root,
 .theme-dark {
-    --background-primary: #222530;
+    --background-primary: #222;
+    --hr-color: var(--background-primary);
     --text-normal: #ccc;
     --font-text:
         -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
@@ -8,14 +9,14 @@
     --font-interface:
         -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica,
         Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    --font-text-size: 14px;
-    --h1-size: 26px;
+    --font-text-size: 16px;
+    --h1-size: 42px;
     --h1-weight: 700;
     --h1-color: #eee;
-    --h2-size: 14px;
+    --h2-size: 20px;
     --h2-weight: 600;
     --h2-color: #eee;
-    --h3-size: 14px;
+    --h3-size: 16px;
     --h3-weight: 400;
     --h3-style: italic;
     --h3-color: #eee;
@@ -29,7 +30,6 @@
     --h6-weight: 600;
     --h6-color: #eee;
 
-    --heading-spacing: 0;
     --p-spacing: 0.75rem;
 
     --link-color: #eee;
@@ -37,4 +37,18 @@
     --link-decoration: none;
     --link-external-decoration: none;
     --list-marker-color: #bbb;
+
+    --embed-padding: 0;
+
+    --dg-content-font-size: var(--font-text-size);
+    --dg-content-padding-top: 75px;
+
+    h1 {
+        max-width: 10ch;
+        word-break: normal;
+    }
+
+    .header-separator {
+        margin: 1rem 0;
+    }
 }
