@@ -7,15 +7,12 @@
 
 
 
-
-<div class="cv-header-row">
-  <img src="img/user/cv_photo_2026_1.png" width="60" />
-  <div class="cv-header-text">
-    <h1 class="cv-header-title">György Gutai</h1>
-    <p>Full Stack Web Developer in Budapest, Hungary</p>
-    <p><a href="mailto:hi@gyorgygutai.dev">hi@gyorgygutai.dev</a> · <a href="tel:+36703313643">703313643</a></p>
-  </div>
-</div>
+> [!header]
+> ![cv_photo_2026_1.png\|60](/img/user/img/user/cv_photo_2026_1.png)
+>
+> **György Gutai**  
+> Full Stack Web Developer in Budapest, Hungary  
+> hi@gyorgygutai.dev · +36 70 331 36 43
 
 
 </div></div>
