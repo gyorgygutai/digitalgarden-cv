@@ -32,8 +32,19 @@ function stripTransclusionWrappers(content) {
   return content;
 }
 
-function fixImagePaths(content) {
-  return content.replace(/\/img\/user\/assets\//g, `file://${ASSETS_DIR}/user/assets/`);
+function embedImagesAsBase64(content) {
+  const imageExt = /\.(png|jpg|jpeg|gif|svg|webp)$/i;
+  return content.replace(
+    /\]\(\/img\/user\/assets\/([^"')\]>\s]+)\)/g,
+    (match, filename) => {
+      if (!imageExt.test(filename)) return match;
+      const absPath = path.join(ASSETS_DIR, "user/assets", filename);
+      if (!fs.existsSync(absPath)) return match;
+      const ext = path.extname(filename).slice(1).replace("jpg", "jpeg");
+      const data = fs.readFileSync(absPath).toString("base64");
+      return `](data:image/${ext};base64,${data})`;
+    }
+  );
 }
 
 function createMarkdownIt() {
@@ -166,7 +177,7 @@ async function main() {
   let content = fs.readFileSync(indexPath, "utf-8");
   content = stripFrontmatter(content);
   content = stripTransclusionWrappers(content);
-  content = fixImagePaths(content);
+  content = embedImagesAsBase64(content);
 
   const md = createMarkdownIt();
   let html = md.render(content);
