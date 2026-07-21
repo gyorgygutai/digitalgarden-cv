@@ -22,7 +22,7 @@
 </div></div>
 
 
-# I am a Full Stack Web Developer
+# Full Stack Web Developer
 
 ## I do frontend
 React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
