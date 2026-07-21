@@ -24,7 +24,7 @@
 
 # Full Stack Developer
 
----
+<hr class="header-separator">
 
 ## I do frontend
 React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
