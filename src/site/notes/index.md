@@ -13,10 +13,10 @@
 
 
 > [!profile-header]
-> ![cv_photo_2026_2.png\|60](/img/user/assets/cv_photo_2026_2.png)
+> ![../assets/cv_photo_2026_2.png\|60](/img/user/assets/cv_photo_2026_2.png)
 > 
 >  **György Gutai**
-> hi@gyorgygutai.dev · +36 70 331 36 43
+> hi@gyorgygutai.dev · [Download as PDF](/img/user/assets/index.pdf)
 
 
 </div></div>
