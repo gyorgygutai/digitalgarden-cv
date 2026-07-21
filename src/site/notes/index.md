@@ -25,17 +25,27 @@
 # Full Stack Web Developer
 
 ## I do frontend
-React, Next.js, TypeScript, JavaScript, HTML, CSS, Material UI, Tailwind, Storybook, micro-frontends, design system architecture
+React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
 
-## I do backend + devops
-Node.js, NestJS, REST APIs, GraphQL, SQL, WordPress, GitLab, GitHub, GitHub Actions, GitHub Copilot, Claude, CI/CD, Figma
+## I do backend
+Node.js, NestJS, REST APIs, GraphQL, SQL, Headless CMS, WordPress
+
+## I do ops & tooling
+GitHub Actions, CI/CD pipelines, Docker, Cloudflare
 
 ## I do AI
-Model Context Protocol (MCP), n8n, generative image editing, prompt engineering
+Agent orchestration, context engineering, agent skill design, GPU cloud infra, serverless AI deployment, generative image & video
+
+## Pinned Links
+
+TODO
+
+## My History
+
+TODO
+
+## Links
 
 
-
-## I don't do
-AI Interviews
 
 </div></div>
