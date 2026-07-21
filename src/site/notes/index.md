@@ -32,6 +32,7 @@ React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, d
 ## I do backend
 Node.js, NestJS, REST APIs, GraphQL, OpenAPI specs, SQL, Headless CMS, WordPress
 
+
 ## I do AI
 Agent orchestration, context engineering, agent skill design, GPU cloud infra (RunPod, Vast.ai), serverless inference deployment (RunPod Flash), generative image & video
 
