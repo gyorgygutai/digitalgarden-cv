@@ -47,7 +47,6 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 
 
-
 ### [BBPro at Biznisz Boyz Podcast](https://bbpro.hu/)
 #### 2025.09
 
