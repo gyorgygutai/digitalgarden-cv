@@ -36,16 +36,19 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 ## I do AI
 Agent orchestration, context engineering, agent skill design, GPU cloud infra (RunPod, Vast.ai), serverless inference deployment (RunPod Flash), generative image & video
 
-## Pinned Links
+---
 
-TODO
+## Pinned Projects
+
+...
 
 ## My History
 
-TODO
+...
 
 ## Links
 
+...
 
 
 </div></div>
