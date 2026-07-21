@@ -33,6 +33,8 @@ Node.js, NestJS, REST APIs, GraphQL, SQL, WordPress, GitLab, GitHub, GitHub Acti
 ## I do AI
 Model Context Protocol (MCP), n8n, generative image editing, prompt engineering
 
+
+
 ## I don't do
 AI Interviews
 
