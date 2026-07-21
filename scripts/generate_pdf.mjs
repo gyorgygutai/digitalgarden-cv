@@ -12,14 +12,9 @@ import markdownItTaskCheckbox from "markdown-it-task-checkbox";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 const CSS_DIR = path.resolve(REPO_ROOT, "src/site/styles/user");
-const NOTES_DIR = path.resolve(REPO_ROOT, "src/site/notes");
+const PDF_SOURCE_DIR = path.resolve(REPO_ROOT, "src/site/notes/pdf");
 const ASSETS_DIR = path.resolve(REPO_ROOT, "src/site/img");
-const SOURCE_NOTE = "index.md";
-const OUTPUT_PDF = path.resolve(
-  REPO_ROOT,
-  "src/site/img/user/assets",
-  SOURCE_NOTE.replace(/\.md$/, ".pdf")
-);
+const OUTPUT_DIR = path.resolve(REPO_ROOT, "src/site/img/user/assets");
 
 function stripFrontmatter(content) {
   return content.replace(/^---[\s\S]*?---\n*/m, "");
@@ -151,7 +146,7 @@ ${bodyHtml}
 </html>`;
 }
 
-async function renderPdf(html) {
+async function renderPdf(html, outputPath) {
   const browser = await puppeteer.launch({
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
@@ -159,7 +154,7 @@ async function renderPdf(html) {
   const page = await browser.newPage();
   await page.setContent(html, { waitUntil: "networkidle0" });
   await page.pdf({
-    path: OUTPUT_PDF,
+    path: outputPath,
     format: "A4",
     printBackground: true,
     margin: { top: "20mm", bottom: "20mm", left: "20mm", right: "20mm" },
@@ -167,14 +162,11 @@ async function renderPdf(html) {
   await browser.close();
 }
 
-async function main() {
-  const indexPath = path.join(NOTES_DIR, SOURCE_NOTE);
-  if (!fs.existsSync(indexPath)) {
-    console.error(`index.md not found at ${indexPath}`);
-    process.exit(1);
-  }
+async function processNote(filePath) {
+  const name = path.basename(filePath, ".md");
+  const outputPath = path.join(OUTPUT_DIR, `${name}.pdf`);
 
-  let content = fs.readFileSync(indexPath, "utf-8");
+  let content = fs.readFileSync(filePath, "utf-8");
   content = stripFrontmatter(content);
   content = stripTransclusionWrappers(content);
   content = embedImagesAsBase64(content);
@@ -183,9 +175,30 @@ async function main() {
   let html = md.render(content);
   html = transformCallouts(html);
   const fullHtml = buildHtml(html);
-  await renderPdf(fullHtml);
+  await renderPdf(fullHtml, outputPath);
 
-  console.log(`PDF generated: ${OUTPUT_PDF}`);
+  console.log(`PDF generated: ${outputPath}`);
+}
+
+async function main() {
+  if (!fs.existsSync(PDF_SOURCE_DIR)) {
+    console.error(`PDF source directory not found: ${PDF_SOURCE_DIR}`);
+    console.error("Create the directory and add notes with dg-publish: true.");
+    process.exit(1);
+  }
+
+  const files = fs.readdirSync(PDF_SOURCE_DIR).filter(f => f.endsWith(".md"));
+
+  if (files.length === 0) {
+    console.log("No PDF template notes found in src/site/notes/pdf/");
+    process.exit(0);
+  }
+
+  console.log(`Found ${files.length} PDF template note(s)`);
+  for (const file of files) {
+    await processNote(path.join(PDF_SOURCE_DIR, file));
+  }
+  console.log("Done.");
 }
 
 main().catch(err => {
