@@ -7,6 +7,8 @@
 
 
 
+# Full Stack Web Developer
+
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
@@ -21,8 +23,6 @@
 
 </div></div>
 
-
-# Full Stack Web Developer
 
 ## I do frontend
 React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
