@@ -28,13 +28,13 @@
 React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
 
 ## I do backend
-Node.js, NestJS, REST APIs, GraphQL, SQL, Headless CMS, WordPress
+Node.js, NestJS, REST APIs, GraphQL, OpenAPI specs, SQL, Headless CMS, WordPress
 
 ## I do ops & tooling
-GitHub Actions, CI/CD pipelines, Docker, Cloudflare
+GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS deployment
 
 ## I do AI
-Agent orchestration, context engineering, agent skill design, GPU cloud infra, serverless AI deployment, generative image & video
+Agent orchestration, context engineering, agent skill design, GPU cloud infra (RunPod, Vast.ai), serverless inference deployment (RunPod Flash), generative image & video
 
 ## Pinned Links
 
