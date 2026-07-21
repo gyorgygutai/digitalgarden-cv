@@ -7,11 +7,6 @@
 
 
 
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
 > [!profile-header]
 > ![../assets/cv_photo_2026_2.png\|60](/img/user/assets/cv_photo_2026_2.png)
 > 
@@ -38,8 +33,7 @@ Agent orchestration, context engineering, agent skill design, GPU cloud infra (R
 GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS deployment
 
 ---
-
-## My History
+## Project History
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
@@ -158,6 +152,3 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 ## Links
 
 ...
-
-
-</div></div>
