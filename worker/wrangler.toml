@@ -1,0 +1,8 @@
+name = "digitalgarden-pdf"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[[routes]]
+pattern = "gyorgygutai.dev/img/user/assets/*"
+zone_name = "gyorgygutai.dev"
+methods = ["GET"]

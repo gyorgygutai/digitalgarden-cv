@@ -13,7 +13,9 @@
         "get-theme": "node src/site/get-theme.js",
         "build": "npm-run-all get-theme build:*",
         "test": "vitest run",
-        "pdf": "node scripts/generate_pdf.mjs"
+        "pdf": "node scripts/generate_pdf.mjs",
+        "build:worker:assets": "node scripts/build-worker-assets.js",
+        "worker:install": "npm --prefix worker install"
     },
     "keywords": [],
     "author": "",
