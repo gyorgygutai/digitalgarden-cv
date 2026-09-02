@@ -1,3 +1,6 @@
+import { Buffer } from 'buffer';
+if (typeof globalThis.Buffer === 'undefined') globalThis.Buffer = Buffer;
+
 import { marked } from 'marked';
 import { BUILD_HASH, PDF_SOURCES } from './assets/pdfSources.js';
 import pdfMakeFactory from 'pdfmake';
@@ -186,10 +189,15 @@ export default {
     }
 
     const cache = caches.default;
-    const cacheKey = `pdf:${BUILD_HASH}:${pathname}`;
+    const cacheKey = `https://gyorgygutai.dev/pdf-cache/${BUILD_HASH}${pathname}`;
 
     // Try cache first
-    const cached = await cache.match(cacheKey);
+    let cached;
+    try {
+      cached = await cache.match(cacheKey);
+    } catch (e) {
+      // cache not available in local dev
+    }
     if (cached) {
       return cached;
     }
@@ -215,7 +223,15 @@ export default {
     });
 
     // Cache the PDF in Cache API keyed by build hash
-    ctx.waitUntil(cache.put(cacheKey, response.clone()));
+    ctx.waitUntil(
+      (async () => {
+        try {
+          await cache.put(cacheKey, response.clone());
+        } catch (e) {
+          // cache not available in local dev
+        }
+      })()
+    );
 
     return response;
   },

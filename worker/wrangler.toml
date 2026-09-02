@@ -1,8 +1,8 @@
 name = "digitalgarden-pdf"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
 
-[[routes]]
-pattern = "gyorgygutai.dev/img/user/assets/*"
-zone_name = "gyorgygutai.dev"
-methods = ["GET"]
+routes = [
+  { pattern = "gyorgygutai.dev/img/user/assets/*", zone_name = "gyorgygutai.dev" }
+]
