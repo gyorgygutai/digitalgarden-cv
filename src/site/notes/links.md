@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"links","permalink":"/links/","title":"💪🏾 Notable Links","dgShowInlineTitle":true,"dg-note-properties":{"title":"💪🏾 Notable Links"}}
+{"dg-publish":true,"dg-permalink":"links","permalink":"/links/","title":"💪🏾 Notable Links","dgShowInlineTitle":true,"dg-note-properties":{"as":"page","title":"💪🏾 Notable Links"}}
 ---
 
 

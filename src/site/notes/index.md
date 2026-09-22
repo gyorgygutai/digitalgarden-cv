@@ -1,23 +1,21 @@
 ---
-{
-  "dg-publish": true,
-  "permalink": "/index/",
-  "title": "György Gutai - Full Stack Web Developer",
-  "tags": ["gardenEntry"],
-  "dg-note-properties": { "title": "György Gutai - Full Stack Web Developer" },
-}
+{"dg-publish":true,"permalink":"/index/","title":"György Gutai - Full Stack Web Developer","tags":["gardenEntry"],"dg-note-properties":{"as":"home","title":"György Gutai - Full Stack Web Developer"}}
 ---
+
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
+
+
 > [!profile-header]
 > ![../assets/cv_photo_2026_2.png\|60](/img/user/assets/cv_photo_2026_2.png)
->
-> # György Gutai
->
-> <hi@gyorgygutai.dev> · [Download as PDF](/img/user/assets/index.pdf)
+> 
+>  # György Gutai
+> hi@gyorgygutai.dev · [Download as PDF](/img/user/assets/index.pdf)
+
 
 </div></div>
+
 
 ## Full Stack Developer
 
@@ -43,10 +41,12 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 ## Project History
 
+
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
-### [BBPro at Biznisz Boyz Podcast](https://bbpro.hu/)
 
+
+### [BBPro at Biznisz Boyz Podcast](https://bbpro.hu/)
 #### 2025.09
 
 - Migrated business-critical automations to n8n, eliminating manual processes and improving reliability and transparency
@@ -58,7 +58,6 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 ---
 
 ### MBH Vault
-
 #### 2024.12 — 2025.08
 
 - (8-month contract) Key contributor to a new external team that was responsible for rolling out two new major features for Hungary's largest bank
@@ -70,8 +69,7 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 ---
 
-### Fuse Oncology at ALLWIN Informatika Kft
-
+### Fuse Oncology at ALLWIN Informatika Kft. 
 #### 2024
 
 - (2-month contract) Dashboard-style admin interface for radiation oncology targeting the U.S. healthcare market
@@ -82,7 +80,6 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 ---
 
 ### [BBPro at Biznisz Boyz Podcast](https://bbpro.hu/)
-
 #### 2024
 
 - (Freelance) E-commerce website for one of Hungary's most popular podcasts
@@ -93,7 +90,6 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 ---
 
 ### [Fizz at McKinsey Budapest](https://fizz.hu/)
-
 #### 2023
 
 - (8-month contract) E-commerce platform for OTP
@@ -105,8 +101,7 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 ---
 
-### WCheck at ORMO Kft. | Tegridy Technologies Zrt
-
+### WCheck at ORMO Kft. | Tegridy Technologies Zrt.
 #### 2021 — 2023
 
 - Online sports betting tips aggregator website made for the German market
@@ -116,8 +111,7 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 ---
 
-### [WELOVETISZATO at We Love Tisza-tó Kft.](https://welovetiszato.hu/)
-
+### [WELOVETISZATO at We Love Tisza-tó Kft.](https://welovetiszato.hu/) 
 #### 2020 — 2024
 
 - (Freelance) Local tourism magazine
@@ -128,7 +122,6 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 ---
 
 ### [UNICEF Hungary at UNICEF Hungarian National Committee](https://unicef.hu/)
-
 #### 2020 — 2023
 
 - (Freelance) One of the largest children's rights organizations
@@ -138,8 +131,7 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 ---
 
-### [Tackl at ORMO Kft. | Tegridy Technologies Zrt.](https://tackl.me/)
-
+### [Tackl at ORMO Kft. | Tegridy Technologies Zrt.](https://tackl.me/) 
 #### 2017 — 2023
 
 - Multi-tenant, multiplayer football betting game
@@ -149,8 +141,7 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 ---
 
-### Foosio at ORMO Kft. | Tegridy Technologies Zrt
-
+### Foosio at ORMO Kft. | Tegridy Technologies Zrt.
 #### 2013 — 2021
 
 - Multi-tenant, live football manager game
@@ -158,4 +149,6 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 - Storybook design system: [foosio-components.web.app](https://foosio-components.web.app/)
 - Technologies: `React` `TypeScript` `GraphQL` `Material UI` `Storybook` `GitHub Actions` `CircleCI` `Heroku`
 
+
 </div></div>
+

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/pdf/project-based/","dg-note-properties":{"as":["page","pdf"]}}
+{"dg-publish":true,"permalink":"/pdf/chronological/","dg-note-properties":{"as":"pdf"}}
 ---
 
 
