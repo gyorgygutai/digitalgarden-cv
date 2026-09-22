@@ -1,0 +1,39 @@
+.callout[data-callout="profile-header"] {
+    --callout-padding: 0;
+    --callout-icon: none;
+    --callout-color: transparent;
+    border-left: none;
+}
+
+.callout[data-callout="profile-header"] .callout-title {
+    display: none;
+}
+
+.callout[data-callout="profile-header"] .callout-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 16px;
+    background: none;
+    padding: 0;
+}
+
+.callout[data-callout="profile-header"] .callout-content > * {
+    grid-column: 2;
+    margin: 0;
+}
+
+.callout[data-callout="profile-header"] .callout-content > *:first-child {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.callout[data-callout="profile-header"] .callout-content img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    display: block;
+}
