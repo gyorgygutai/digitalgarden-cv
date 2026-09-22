@@ -47,7 +47,7 @@ GitHub Actions, CI/CD pipelines, Docker, Cloudflare, webhooks & automation, VPS 
 
 
 ### [BBPro at Biznisz Boyz Podcast](https://bbpro.hu/)
-#### 2025.09
+#### 2025.09-
 
 - Migrated business-critical automations to n8n, eliminating manual processes and improving reliability and transparency
 - Empowered client self-sufficiency by providing technical guidance for AI-assisted development and implementing supporting infrastructure
