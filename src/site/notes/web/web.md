@@ -12,7 +12,7 @@
 >
 > # György Gutai
 >
-> <hi@gyorgygutai.dev> · [06 20 497 4897](+36204974897)
+> <hi@gyorgygutai.dev> · [06 20 497 4897](tel:+36204974897)
 
 
 </div></div>
