@@ -1,0 +1,25 @@
+:root,
+.theme-dark {
+    --h1-size: min(38vw, 16rem);
+    --h2-size: min(8vw, 3.25rem);
+}
+
+.hero {
+    overflow: hidden;
+    margin: 0 calc(var(--size-4-8) * -1);
+}
+
+.hero-offset {
+    margin-left: -4%;
+}
+
+@media (min-width: 769px) {
+    .hero {
+        margin: 0;
+        overflow: initial;
+    }
+
+    .hero-offset {
+        margin-left: -8%;
+    }
+}

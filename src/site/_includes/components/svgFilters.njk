@@ -1,0 +1,16 @@
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none;" aria-hidden="true">
+  <filter id="liquid-glass-warp">
+    <feTurbulence
+      type="fractalNoise"
+      baseFrequency="0.02 0.015"
+      numOctaves="1"
+      seed="7"
+      result="noise" />
+    <feDisplacementMap
+      in="SourceGraphic"
+      in2="noise"
+      scale="10"
+      xChannelSelector="R"
+      yChannelSelector="G" />
+  </filter>
+</svg>
