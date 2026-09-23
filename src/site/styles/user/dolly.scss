@@ -1,0 +1,5 @@
+// Dolly — scroll-driven animations in plain CSS, no JS. https://usedolly.dev/
+// Apply moves with the data-dolly attribute in note markup:
+//   markdown heading:  ## Core Skills { data-dolly="tilt-up" }
+//   existing HTML:     <div class="transclusion" data-dolly="fade">…</div>
+@use "@dollyjs/core/src/dolly" as *;
