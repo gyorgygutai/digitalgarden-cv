@@ -11,9 +11,10 @@
         "build:eleventy": "cross-env ELEVENTY_ENV=prod NODE_OPTIONS=--max-old-space-size=4096 eleventy",
         "build:sass": "sass src/site/styles:dist/styles --style compressed",
         "get-theme": "node src/site/get-theme.js",
-        "build": "npm-run-all get-theme build:pdf build:*",
+        "build": "npm-run-all get-theme build:pdf check:pdf build:*",
         "test": "vitest run",
         "build:pdf": "node scripts/generate_pdf.mjs",
+        "check:pdf": "node scripts/check_pdf.mjs",
         "build:worker:assets": "node scripts/build-worker-assets.js",
         "worker:install": "npm --prefix worker install"
     },

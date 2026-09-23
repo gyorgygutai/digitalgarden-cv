@@ -19,4 +19,29 @@
     blockquote {
         page-break-inside: avoid;
     }
+
+    h2 {
+        max-width: initial !important;
+    }
+
+    h3, h4, h3 + p, h4 + p, strong {
+        margin: 0;
+    }
+
+    h3, h4 {
+        margin-top: calc(var(--heading-spacing) / 4);
+    }
+
+    hr {
+        display: none;
+    }
+
+    hr.header-seaprator {
+      display: block;
+      opacity: 0;
+    }
+
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 }
