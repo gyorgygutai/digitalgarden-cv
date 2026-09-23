@@ -8,7 +8,7 @@
 
 
 > [!profile-header]
-> ![assets/cv_photo_2026_2.png\|60](/img/user/assets/cv_photo_2026_2.png)
+> ![cv_photo_2026_3.png\|60](/img/user/img/user/assets/cv_photo_2026_3.png)
 >
 > # György Gutai
 >
