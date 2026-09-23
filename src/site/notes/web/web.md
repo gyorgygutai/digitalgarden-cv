@@ -12,7 +12,7 @@
 >
 > # György Gutai
 >
-> <hi@gyorgygutai.dev> ·
+> <hi@gyorgygutai.dev> · [06 20 497 4897](+36204974897)
 
 
 </div></div>
