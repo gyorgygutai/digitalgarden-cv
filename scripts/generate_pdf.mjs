@@ -14,7 +14,7 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 const CSS_DIR = path.resolve(REPO_ROOT, "src/site/styles/user");
 const PDF_SOURCE_DIR = path.resolve(REPO_ROOT, "src/site/notes/pdf");
 const ASSETS_DIR = path.resolve(REPO_ROOT, "src/site/img");
-const OUTPUT_DIR = path.resolve(REPO_ROOT, "src/site/img/user/assets");
+const OUTPUT_DIR = path.resolve(REPO_ROOT, "src/site");
 
 function stripFrontmatter(content) {
   return content.replace(/^---[\s\S]*?---\n*/m, "");
