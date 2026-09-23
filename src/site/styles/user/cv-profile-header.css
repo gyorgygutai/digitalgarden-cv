@@ -1,15 +1,18 @@
-.callout[data-callout="profile-header"] {
+.callout[data-callout="profile-header"],
+blockquote.callout[data-callout="profile-header"] {
     --callout-padding: 0;
     --callout-icon: none;
     --callout-color: transparent;
     border-left: none;
 }
 
-.callout[data-callout="profile-header"] .callout-title {
+.callout[data-callout="profile-header"] .callout-title,
+blockquote.callout[data-callout="profile-header"] {
     display: none;
 }
 
-.callout[data-callout="profile-header"] .callout-content {
+.callout[data-callout="profile-header"] .callout-content,
+blockquote.callout[data-callout="profile-header"] {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto auto;
@@ -18,19 +21,22 @@
     padding: 0;
 }
 
-.callout[data-callout="profile-header"] .callout-content > * {
+.callout[data-callout="profile-header"] .callout-content > *,
+blockquote.callout[data-callout="profile-header"] > * {
     grid-column: 2;
     margin: 0;
 }
 
-.callout[data-callout="profile-header"] .callout-content > *:first-child {
+.callout[data-callout="profile-header"] .callout-content > *:first-child,
+blockquote.callout[data-callout="profile-header"] > *:first-child {
     grid-column: 1;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
 }
 
-.callout[data-callout="profile-header"] .callout-content img {
+.callout[data-callout="profile-header"] .callout-content img,
+blockquote.callout[data-callout="profile-header"] img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
