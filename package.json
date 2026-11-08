@@ -8,6 +8,7 @@
         "dev": "npm-run-all get-theme build:sass --parallel watch:*",
         "watch:sass": "sass --watch --load-path=node_modules src/site/styles:dist/styles",
         "watch:eleventy": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+        "watch:pdf": "chokidar 'src/site/notes/pdf/**/*.md' 'src/site/styles/user/**/*.css' 'src/site/img/user/assets/**/*' -c 'npm run build:pdf'",
         "build:eleventy": "cross-env ELEVENTY_ENV=prod NODE_OPTIONS=--max-old-space-size=4096 eleventy",
         "build:sass": "sass --load-path=node_modules src/site/styles:dist/styles --style compressed",
         "get-theme": "node src/site/get-theme.js",
@@ -28,6 +29,7 @@
     "devDependencies": {
         "@11ty/eleventy": "^3.1.2",
         "@11ty/eleventy-plugin-rss": "^2.0.4",
+        "chokidar-cli": "^3.0.0",
         "cross-env": "^10.1.0",
         "html-minifier-terser": "^7.2.0",
         "node-html-parser": "^7.0.2",
