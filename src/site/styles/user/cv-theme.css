@@ -49,7 +49,7 @@
     --p-spacing: 0.3rem;
     --heading-spacing: 2rem;
     --hr-spacing: 1rem;
-    --hr-spacing-hero: calc(var(--hr-spacing) * 3);
+    --hr-spacing-hero: calc(var(--hr-spacing) * 3.6);
     --hr-spacing-prominent: calc(var(--hr-spacing) * 2);
 
     --link-color: #eee;

@@ -4,8 +4,22 @@
     --h2-size: min(8vw, 3.25rem);
 }
 
+@keyframes em-aurora-breathe {
+    from { background-size: 200% 100%; }
+    to { background-size: 100% 100%; }
+}
+
+/* keep letter size fixed; only the gradient field breathes on scroll */
+h1 em {
+    animation-name: em-aurora-breathe;
+    animation-timeline: view();
+    animation-range: cover;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+
 .hero {
-    overflow: hidden;
+    overflow: clip;
     margin: 0 calc(var(--size-4-8) * -1);
 }
 
