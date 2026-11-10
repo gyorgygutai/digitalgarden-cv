@@ -7,7 +7,7 @@
 
 
 
-> [!profile-header]
+> [!header]
 > ![assets/cv_photo_2026_3.png\|60](/img/user/assets/cv_photo_2026_3.png)
 >
 > # György Gutai
@@ -42,9 +42,13 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 
 
+<div class="skills">
+
 **Frontend**: React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
 **Backend**: Node.js, NestJS, REST APIs, GraphQL, OpenAPI specs, SQL, Headless CMS, WordPress
-**AI & tooling**: Agent orchestration, context engineering, skill design, GPU cloud infra, serverless inference deployment, generative image & video, CI/CD pipelines, Docker, Cloudflare
+**AI & tooling**: Agent orchestration, context engineering, GPU cloud infra, serverless deployment, generative image & video, CI/CD pipelines, Docker, Cloudflare
+
+</div>
 
 
 </div></div>
@@ -65,14 +69,14 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 ##### 2025.09 -
 
-**AI Liaison / Vibe Checker**
+**Full Stack Engineer / Vibe Checker**
 
-- E-learning platform for the Biznisz Boyz community
-- Supported the migration to headless Woocommerce and a React frontend
-- Designed the architecture of the new freemium subscription model
-- Introduced tests, specs, LLM log monitoring and (AI) tools to reduce drift
-- Engineering context to prevent fatal AI mistakes; prepared when they happen anyway
-- Technologies: `React` `Vite` `Hermes Agent` `Supabase` `Playwright` `Headless WP` `Openapi`
+- E-learning platform, Biznisz Boyz
+- Migrated to headless WP and React. `PHP`, `React`, `Vite`, `Supabase`
+- Designed freemium subscriptions. `Headless WooCommerce`, `OpenAPI`
+- Reduced drift. Specs, automated tests. `Hermes Agent`, `Playwright`
+- Reduced iOS, Android regressions. Agent-driven visual testing. `Maestro`
+- Reduced AI errors. LLM context engineering, log monitoring. `Cloudflare`, `Ubuntu`
 
 ---
 
@@ -82,11 +86,10 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 **Full Stack Developer**
 
-- Contributor in rolling out two new major features for Hungary's largest bank
-- Shipped & reviewed code across micro-frontends in a Next.js federated architecture
-- Designed new subgraphs for the GraphQL Federation; built, reviewed NestJS microservices
-- Onboarded new team members, documenting and automating the process to reduce friction
-- Technologies: `React` `Next.js` `Module Federation` `NestJS` `TypeScript` `Storybook`
+- Banking platform, enterprise-scale microservices
+- Features: Loan applications, Payment protection insurance. `React`, `GraphQL`, `NestJS`, `TypeScript`
+- Designed, shipped subgraphs, services, frontends. `React`, `Module Federation`, `Storybook`
+- Reduced onboarding friction. Improved documentation, automation. `Confluence`, `Camunda`
 
 ---
 
@@ -96,10 +99,9 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 **Frontend Developer**
 
-- Dashboard-style interface for radiation oncology, U.S. healthcare market
-- Contributed frontend and UI best practices to the last sprints before handoff
-- Collaborated with a remote design team on a daily basis to ship a polished UI
-- Technologies: `React` `Next.js` `TypeScript` `React Query` `Material UI` `Figma` `OpenAPI`
+- Radiation oncology dashboard, U.S. healthcare market
+- Shipped an improved frontend before deadline. `React`, `Next.js`, `TypeScript`, `React Query`
+- UI polish, daily remote design team collaboration. `Figma`, `Material UI`
 
 ---
 
@@ -109,10 +111,10 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 **Full Stack Developer**
 
-- E-commerce platform for OTP, went on to be Fizz.hu
-- Responsible for improving the Budapest frontend team's code quality and velocity
-- Code review; introduced a design system and performance load tests
-- Technologies: `React` `Next.js` `TypeScript` `GraphQL` `NestJS` `Material UI` `Tailwind` `Storybook` `k6` `Figma` `GitLab`
+- E-commerce platform, for OTP
+- Improved code quality. Mentoring, code review. `React`, `Next.js`, `TypeScript`, `GraphQL`, `NestJS`
+- Introduced a design system. `React`, `Next.js`, `Material UI`, `Tailwind`, `Storybook`, `Figma`
+- Improved reliability. Automated load tests. `k6`, `GitLab`
 
 ---
 
@@ -122,9 +124,9 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 **Full Stack Developer**
 
-- Lake Tisza local tourism magazine
-- Built a CI pipeline for Headless WP that works unattended to this day
-- Technologies: `React` `Gatsby` `Headless WordPress` `GraphQL` `Styled System` `GH Actions` `Netlify` `Vercel`
+- Lake Tisza local tourism magazine, thousands of static pages
+- Exceptional performance, headless WordPress. `React`, `Gatsby`, `PHP`, `GraphQL`
+- CI pipeline, automation. `WPGraphql`, `GH Actions`, `Netlify`, `Vercel`
 
 ---
 
@@ -134,9 +136,8 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 **Full Stack Developer**
 
-- Took over the development of a backend system handling online payments
-- Built donation campaign solutions and microsites for unicef.hu
-- Technologies: `JavaScript` `PHP` `WordPress` `MySQL` `Tailwind` `Laravel` `REST` `Figma`
+- Donation payments backend. `PHP`, `Laravel`, `MySQL`, `REST`
+- Campaign microsites, newsletter automation. `WordPress`, `JavaScript`, `HTML`, `CSS`
 
 ---
 
@@ -144,11 +145,12 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 ##### 2013 - 2024
 
-**Lead Frontend Developer / Full Stack Developer**
+**Frontend Lead / Full Stack Developer**
 
-- Startup receiving multiple rounds of funding, 10+ employees
-- Built and led the team responsible for the games' front end development
-- Technologies: `React` `TypeScript` `Material UI` `ProtobufJS` `Storybook` `GH Actions`
+- Funded startup, second employee, grew to 10+ employees
+- Built football-related products, German market
+- Backend services, realtime. `PHP`, `SQL`, `Laravel`, `Node.js`, `Protobuf`, `Firebase`
+- Frontends. Code review, mentoring. `React`, `TypeScript`, `Material UI`, `Storybook`, `Vue`, `Github Actions`
 
 
 </div></div>
@@ -165,8 +167,13 @@ Full Stack Developer with 15+ years experience. Minimalist.
 
 
 
+<div class="links">
+
 **Contact**: [gyorgygutai.dev](https://gyorgygutai.dev), [LinkedIn](http://linkedin.com/in/gyorgygutai), <dear@gyorgygutai.dev>, [06 20 497 4897](tel:+36204974897)
-**Work**: [Github](https://github.com/gyorgygutai), [Face Value](https://github.com/gyorgygut-ai/inference-empire/tree/main/apps/face-value), [Source of this CV](https://github.com/gyorgygutai/digitalgarden-cv), [Generative AI Prompting](https://gen-ai-prompts.gyorgygutai.dev)
+**Github**: [github.com/gyorgygutai](https://github.com/gyorgygutai), [Face Value](https://github.com/gyorgygut-ai/inference-empire/tree/main/apps/face-value), [Source of this CV](https://github.com/gyorgygutai/digitalgarden-cv)
+
+</div>
 
 
 </div></div>
+

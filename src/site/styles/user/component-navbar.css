@@ -1,0 +1,40 @@
+:root {
+    --navbar-item-gap: 6px;
+}
+
+blockquote.callout[data-callout="navbar"],
+.callout[data-callout="navbar"] {
+    font-size: var(--navbar-font-size);
+    line-height: var(--p-line-height);
+    --callout-padding: 0;
+    --callout-icon: none;
+    --callout-color: transparent;
+    border-left: none;
+}
+
+.callout[data-callout="navbar"] .callout-title {
+    display: none;
+}
+
+blockquote.callout[data-callout="navbar"],
+.callout[data-callout="navbar"] .callout-content {
+    text-align: right;
+}
+
+blockquote.callout[data-callout="navbar"] .external-link,
+.callout[data-callout="navbar"] .external-link {
+    padding: 0;
+    background: none;
+}
+
+.callout[data-callout="navbar"] .callout-content a+a {
+    margin-inline-start: var(--navbar-item-gap);
+}
+
+blockquote.callout[data-callout="navbar"]>*:first-child,
+.callout[data-callout="navbar"] .callout-content>*:first-child {
+    display: flex;
+    gap: var(--navbar-item-gap);
+    flex-direction: row;
+    justify-content: flex-end;
+}

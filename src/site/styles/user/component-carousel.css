@@ -1,0 +1,200 @@
+:root {
+    --carousel-dot-color: color-mix(in srgb, #257bd2 35%, transparent);
+    --carousel-dot-selected-color: #6659a8;
+    --carousel-arrow-icon-color: var(--text-normal);
+
+    --carousel-card-width: clamp(260px, calc((100% - var(--size-4-4)) / 3), 400px);
+    --carousel-card-height: clamp(350px, 40vh, 450px);
+    --carousel-card-gap: var(--size-4-2);
+    --carousel-content-gap: var(--size-4-4);
+    --carousel-max-width: 1200px;
+    --carousel-scrollbar-height: 8px;
+    --carousel-scrollbar-thumb-radius: 4px;
+    --carousel-card-radius: var(--radius-xl);
+    --carousel-card-margin-inline-end: var(--p-spacing);
+    --carousel-caption-inset: var(--size-4-4);
+    --carousel-caption-max-width: calc(100% - 2rem);
+    --carousel-caption-padding: 0.65rem 0.85rem;
+    --carousel-caption-radius: var(--radius-m);
+    --carousel-caption-background: color-mix(in srgb, var(--background-primary) 25%, transparent);
+    --carousel-caption-line-height: 1.3;
+    --carousel-caption-backdrop-blur: 6px;
+    --carousel-marker-size: 8px;
+    --carousel-marker-selected-width: 24px;
+    --carousel-marker-gap: var(--size-4-2);
+    --carousel-marker-padding-block: var(--size-4-3);
+    --carousel-control-size: var(--size-4-12);
+    --carousel-control-radius: 50%;
+    --carousel-control-background: color-mix(in srgb, var(--background-primary) 90%, transparent);
+    --carousel-control-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    --carousel-control-font-size: 2rem;
+    --carousel-marker-transition: width 250ms ease, background-color 250ms ease;
+}
+
+.callout[data-callout="carousel"] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.callout[data-callout="carousel"] .callout-title {
+    display: none !important;
+}
+
+.callout[data-callout="carousel"]>.callout-content {
+    padding: 0;
+    overflow: visible;
+}
+
+.callout[data-callout="carousel"] .callout-content>ul {
+    position: relative;
+    display: grid;
+    grid-auto-columns: var(--carousel-card-width);
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    column-gap: var(--carousel-card-gap);
+    row-gap: var(--carousel-content-gap);
+    width: 100%;
+    max-width: var(--carousel-max-width);
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    list-style: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    scroll-marker-group: after;
+    scrollbar-color: var(--text-faint) var(--background-modifier-border);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::-webkit-scrollbar {
+    height: var(--carousel-scrollbar-height);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::-webkit-scrollbar-thumb {
+    border-radius: var(--carousel-scrollbar-thumb-radius);
+    background: var(--text-faint);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::-webkit-scrollbar-track {
+    background: var(--background-modifier-border);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li {
+    position: relative;
+    grid-row: 1;
+    min-width: 0;
+    height: var(--carousel-card-height);
+    overflow: hidden;
+    border-radius: var(--carousel-card-radius);
+    scroll-snap-align: center;
+    margin-inline-start: 0;
+    margin-inline-end: var(--carousel-card-margin-inline-end);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li>p:first-of-type {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li>p:first-of-type :is(.internal-embed.image-embed, picture) {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li>p:first-of-type img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li>p:last-child {
+    position: absolute;
+    right: auto;
+    bottom: var(--carousel-caption-inset);
+    left: var(--carousel-caption-inset);
+    width: fit-content;
+    max-width: var(--carousel-caption-max-width);
+    margin: 0;
+    padding: var(--carousel-caption-padding);
+    border-radius: var(--carousel-caption-radius);
+    background: var(--carousel-caption-background);
+    color: var(--text-normal);
+    line-height: var(--carousel-caption-line-height);
+    -webkit-backdrop-filter: blur(var(--carousel-caption-backdrop-blur));
+    backdrop-filter: blur(var(--carousel-caption-backdrop-blur));
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::scroll-marker-group {
+    display: flex;
+    grid-row: 2;
+    anchor-name: --carousel-markers;
+    justify-content: center;
+    align-items: center;
+    gap: var(--carousel-marker-gap);
+    padding: var(--carousel-marker-padding-block) 0;
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li::scroll-marker {
+    width: var(--carousel-marker-size);
+    height: var(--carousel-marker-size);
+    border-radius: 999px;
+    border: 0;
+    outline: 0;
+    background: var(--carousel-dot-color);
+    content: "";
+    transition: var(--carousel-marker-transition);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul>li::scroll-marker:target-current {
+    width: var(--carousel-marker-selected-width);
+    background: var(--carousel-dot-selected-color);
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::scroll-button(left),
+.callout[data-callout="carousel"] .callout-content>ul::scroll-button(right) {
+    position: absolute;
+    position-anchor: --carousel-markers;
+    top: anchor(center);
+    z-index: 1;
+    display: grid;
+    width: var(--carousel-control-size);
+    height: var(--carousel-control-size);
+    place-items: center;
+    transform: translateY(-50%);
+    border: 0;
+    border-radius: var(--carousel-control-radius);
+    background: var(--carousel-control-background);
+    color: var(--carousel-arrow-icon-color);
+    box-shadow: var(--carousel-control-shadow);
+    font-size: var(--carousel-control-font-size);
+    cursor: pointer;
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::scroll-button(left) {
+    left: 0;
+    content: "‹";
+}
+
+.callout[data-callout="carousel"] .callout-content>ul::scroll-button(right) {
+    right: 0;
+    content: "›";
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .callout[data-callout="carousel"] .callout-content>ul {
+        scroll-behavior: auto;
+    }
+
+    .callout[data-callout="carousel"] .callout-content>ul>li::scroll-marker {
+        --carousel-marker-transition: none;
+    }
+}

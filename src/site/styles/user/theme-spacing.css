@@ -1,0 +1,18 @@
+:root,
+body,
+.theme-dark {
+    --embed-padding: 0;
+    --p-spacing: 0.3rem;
+    --p-line-height: 1.5;
+    --heading-spacing: 2rem;
+
+    --hr-spacing: 1rem;
+    --hr-spacing-hero: calc(var(--hr-spacing) * 3.25);
+    --hr-spacing-prominent: calc(var(--hr-spacing) * 2);
+
+    --dg-transclusion-padding: 0;
+    --dg-content-padding-top: 24px;
+    --dg-content-padding-top-mobile: 24px;
+
+    --table-border-radius: 6px;
+}
