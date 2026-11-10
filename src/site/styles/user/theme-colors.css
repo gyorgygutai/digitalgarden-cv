@@ -1,0 +1,42 @@
+:root,
+body,
+.theme-dark {
+    --background-primary: #1c1b1b;
+    --hr-color: var(--background-primary);
+    --bg-aurora: linear-gradient(115deg,
+            #081c49 0%,
+            #1450a0 17%,
+            #257bd2 36%,
+            #6659a8 51%,
+            #bf344e 68%,
+            #e6a53c 86%,
+            #ffdc77 100%);
+    --bold-color: #eee;
+    --text-normal: #c2c0c0;
+    --h1-color: #fff;
+    --h2-color: var(--text-normal);
+    --h3-color: #eee;
+    --h4-color: #eee;
+    --h5-color: var(--text-normal);
+    --h6-color: #eee;
+    --link-color: #eee;
+    --link-external-color: #eee;
+    --list-marker-color: #bbb;
+    --callout-lev0-color: #448aff;
+    --callout-lev1-color: #00b0ff;
+    --callout-lev2-color: #00b8d4;
+    --callout-lev3-color: #00bfa5;
+    --callout-lev4-color: #09ad7a;
+    --callout-lev5-color: #dba642;
+    --callout-lev6-color: #db8942;
+    --callout-lev7-color: #db4242;
+    --callout-lev8-color: #db4242;
+    --callout-lev9-color: #db4242;
+    --callout-lev10-color: #7a43b5;
+    --scrollbar-track-color: transparent;
+    --scrollbar-corner-color: transparent;
+    --table-hover-background: transparent;
+    --text-selection-bg: color-mix(in oklch,
+            var(--interactive-accent) 20%,
+            transparent);
+}

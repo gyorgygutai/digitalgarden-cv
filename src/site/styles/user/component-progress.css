@@ -1,0 +1,30 @@
+:root {
+    --progress-height: 5px;
+    --progress-z-index: 100;
+}
+
+@keyframes scroll-progress {
+    from {
+        scale: 0 1
+    }
+
+    to {
+        scale: 1 1;
+    }
+}
+
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--progress-height);
+    background: var(--bg-aurora);
+    z-index: var(--progress-z-index);
+    transform-origin: 100% 50%;
+    animation-name: scroll-progress;
+    animation-timeline: scroll();
+    animation-range: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}

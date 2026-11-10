@@ -1,0 +1,56 @@
+:root {
+    --profile-header-column-gap: var(--size-4-6);
+    --profile-header-image-size: 60px;
+}
+
+blockquote.callout[data-callout="profile-header"],
+.callout[data-callout="profile-header"] {
+    --callout-padding: 0;
+    --callout-icon: none;
+    --callout-color: transparent;
+    border-left: none;
+}
+
+blockquote.callout[data-callout="profile-header"],
+.callout[data-callout="profile-header"] .callout-title {
+    display: none;
+}
+
+blockquote.callout[data-callout="profile-header"],
+.callout[data-callout="profile-header"] .callout-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: var(--profile-header-column-gap);
+    background: none;
+    padding: 0;
+}
+
+blockquote.callout[data-callout="profile-header"]>*,
+.callout[data-callout="profile-header"] .callout-content>* {
+    grid-column: 2;
+    margin: 0;
+}
+
+blockquote.callout[data-callout="profile-header"]>*:first-child,
+.callout[data-callout="profile-header"] .callout-content>*:first-child {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+blockquote.callout[data-callout="profile-header"] img,
+.callout[data-callout="profile-header"] .callout-content img {
+    border-radius: 50%;
+    width: var(--profile-header-image-size);
+    height: var(--profile-header-image-size);
+    object-fit: cover;
+    display: block;
+}
+
+blockquote.callout[data-callout="profile-header"] .external-link,
+.callout[data-callout="profile-header"] .external-link {
+    padding: 0;
+    background: none;
+}

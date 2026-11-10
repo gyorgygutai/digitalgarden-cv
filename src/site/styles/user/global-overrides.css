@@ -1,0 +1,115 @@
+.markdown-embed {
+    border-left: none !important;
+}
+
+.markdown-embed-title {
+    display: none;
+}
+
+:root,
+.theme-dark {
+    h1 {
+        max-width: 10ch;
+        word-break: keep-all;
+        white-space: nowrap;
+        overflow-wrap: break-word;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        max-width: 5ch;
+        white-space: normal;
+        word-break: keep-all;
+        overflow-wrap: normal;
+        line-height: 1.15;
+    }
+
+    .first-word {
+        display: block;
+        font-size: var(--first-word-size);
+    }
+
+    h1,
+    h2 {
+        margin: var(--heading-spacing) 0 0;
+    }
+
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-top: calc(var(--heading-spacing) / 3);
+    }
+
+    .header-separator {
+        border-color: rgba(255, 255, 255, 0.025);
+    }
+
+    .markdown-rendered hr,
+    .markdown-source-view hr {
+        margin: var(--hr-spacing) 0;
+    }
+
+    .hero-separator,
+    .markdown-rendered hr.hero-separator,
+    .markdown-source-view hr.hero-separator {
+        margin: var(--hr-spacing-hero) 0;
+    }
+
+    .prominent-separator,
+    .markdown-rendered hr.prominent-separator,
+    .markdown-source-view hr.prominent-separator {
+        margin: var(--hr-spacing-prominent) 0;
+    }
+
+    .markdown-embed {
+        padding-left: 0;
+    }
+
+    h1 em,
+    h2 em,
+    h3 em,
+    h4 em,
+    h5 em,
+    h6 em {
+        display: inline;
+        font-style: inherit;
+        background-clip: text;
+        background: var(--bg-aurora);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: var(--dg-content-max-width);
+    }
+
+    @keyframes em-aurora-breathe {
+        from {
+            background-size: 200% 100%;
+        }
+
+        to {
+            background-size: 100% 100%;
+        }
+    }
+
+    h1 em,
+    h2 em,
+    h3 em {
+        animation-name: em-aurora-breathe;
+        animation-timeline: view();
+        animation-range: cover;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+    }
+
+    .links strong,
+    .skills strong {
+        display: inline-block;
+        margin-top: var(--p-spacing);
+    }
+}

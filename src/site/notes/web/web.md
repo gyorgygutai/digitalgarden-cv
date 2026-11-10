@@ -2,14 +2,14 @@
 {"dg-publish":true,"permalink":"/web/web/","title":"György Gutai - Full Stack Web Developer","tags":["gardenEntry"],"dg-note-properties":{"as":"home","title":"György Gutai - Full Stack Web Developer"}}
 ---
 
-<div data-dolly="progress" class="scroll-progress" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"></div>
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 
 
-> [!contact-header]
+> [!navbar]
 > <hi@gyorgygutai.dev> [06 20 4974897](tel:+36204974897)
 
 
@@ -20,6 +20,7 @@
 
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
+
 
 
 
@@ -39,30 +40,30 @@
 
 <hr class="hero-separator">
 
+### My Skills
+
+---
+
 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
 
 
-### I do frontend
+<div class="skills">
 
-React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
+**Frontend**: React, Next.js, TypeScript, Material UI, Tailwind, Storybook, micro-frontends, design systems
+**Backend**: Node.js, NestJS, REST APIs, GraphQL, OpenAPI specs, SQL, Headless CMS, WordPress
+**AI & tooling**: Agent orchestration, context engineering, GPU cloud infra, serverless deployment, generative image & video, CI/CD pipelines, Docker, Cloudflare
 
-### I do backend
-
-Node.js, NestJS, REST APIs, GraphQL, OpenAPI specs, SQL, Headless CMS, WordPress
-
-### I do AI & tooling
-
-Agent orchestration, context engineering, GPU cloud infra, serverless deployment, generative image & video, CI/CD pipelines, Docker, Cloudflare
+</div>
 
 
 </div></div>
 
 
-<hr class="prominent-separator">
+---
 
-### Resume
+### My Resume
 
 ---
 
@@ -73,26 +74,6 @@ Agent orchestration, context engineering, GPU cloud infra, serverless deployment
 
 [PDF download: chronological](cv_gyorgygutai.pdf)
 [PDF download: project-based](cv_gyorgygutai_project_based.pdf)
-
-
-</div></div>
-
-
----
-
-### My Stuff
-
----
-
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
-
-
-[Github](https://github.com/gyorgygutai)
-[Face Value](https://github.com/gyorgygut-ai/inference-empire/tree/main/apps/face-value)
-[Source of this CV](https://github.com/gyorgygutai/digitalgarden-cv)
-[Generative AI Prompting](https://gen-ai-prompts.gyorgygutai.dev)
 
 
 </div></div>

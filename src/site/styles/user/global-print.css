@@ -1,0 +1,68 @@
+@media print {
+    :root {
+        --h1-size: 38px;
+        --h2-size: 32px;
+        --h3-size: 24px;
+
+        .internal-embed {
+            margin-left: -30px;
+        }
+
+        h1 {
+            page-break-before: always;
+        }
+
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            max-width: initial;
+            page-break-after: avoid;
+        }
+
+        blockquote,
+        pre {
+            page-break-inside: avoid;
+        }
+
+        h2 {
+            max-width: initial !important;
+        }
+
+        h3,
+        h4,
+        h5,
+        h6,
+        h3+p,
+        h4+p,
+        h5+p,
+        h6+p,
+        strong {
+            margin: 0;
+        }
+
+        h3,
+        h4 {
+            margin-top: calc(var(--heading-spacing) / 3);
+        }
+
+        h5,
+        h6 {
+            margin-top: calc(var(--heading-spacing) / 4);
+        }
+
+        hr {
+            display: none;
+        }
+
+        hr.header-separator {
+            display: block;
+            opacity: 0;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+    }
+}
